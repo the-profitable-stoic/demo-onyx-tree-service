@@ -1,0 +1,536 @@
+{
+  "business": {
+    "name": "Onyx Tree Service",
+    "phone": "555-tre-r93",
+    "category": "tree-service",
+    "city": "Charlotte",
+    "state": "NC"
+  },
+  "design": {
+    "preset": {
+      "id": "tree-service-dark-premium",
+      "categoryGroup": "tree-service",
+      "name": "Dark Premium",
+      "recipeFile": "tree-service/dark-premium.astro",
+      "colors": {
+        "primary": "#86EFAC",
+        "primaryDark": "#6bbf8a",
+        "primaryLight": "#cff9de",
+        "secondary": "#2A2A2A",
+        "accent": "#98f1b8",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "tree-service/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Expert Tree Care for Charlotte’s Unique Landscape",
+      "heroSubline": "From historic oaks in Myers Park to new construction sites in Ballantyne, we understand local tree needs. Serving Charlotte’s urban canopy with science-based care since 2012.",
+      "aboutTitle": "Rooted in Charlotte, Growing With You",
+      "aboutText": [
+        "Founded by a fourth-generation arborist, Onyx Tree Service brings deep knowledge of Carolina soil types and native species to every job. We’ve cared for Dilworth’s century-old magnolias and protected new plantings in South End’s rapid development.",
+        "Our team combines climbing certifications with localized expertise - understanding how Piedmont clay soils affect root systems, anticipating summer storm damage patterns, and selecting species that thrive in our humid climate.",
+        "When not working, you’ll find us volunteering with TreesCharlotte or educating homeowners at Freedom Park events about proper tree maintenance."
+      ],
+      "valueProps": [
+        {
+          "title": "Climate-Adapted Care",
+          "description": "We adjust techniques for Charlotte’s humid summers and ice storm risks, preserving tree health year-round."
+        },
+        {
+          "title": "Soil Specialists",
+          "description": "Red clay expertise means we properly diagnose drainage issues that threaten root systems."
+        },
+        {
+          "title": "Development Savvy",
+          "description": "We help new construction projects preserve mature trees while meeting engineering requirements."
+        },
+        {
+          "title": "Storm Ready",
+          "description": "24/7 emergency response for damage from thunderstorms and winter ice events common to our region."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Free Tree Assessment",
+      "ctaSubline": "Get a certified arborist’s evaluation of your trees’ health and risks - no obligation."
+    },
+    "services": [
+      {
+        "slug": "tree-removal",
+        "name": "Safe Tree Removal",
+        "shortDescription": "Precision removal for hazardous or unwanted trees without damaging your property.",
+        "description": "In Charlotte’s mix of historic neighborhoods and tight new construction lots, tree removal requires surgical precision. Our crane-assisted techniques protect your home’s foundation from vibration damage - crucial in areas with expansive clay soils. For NoDa’s arts district cottages with limited access, we employ advanced rigging systems.\n\nEvery removal includes stump grinding 6-8 inches below grade to prevent regrowth and tripping hazards. We recycle all wood into mulch for local community gardens or lumber for Charlotte’s woodworking artisans. For heritage trees in Myers Park, we provide documentation for historic preservation requirements.",
+        "process": [
+          "Step 1: Assess tree stability and identify hazards (especially important after summer storms)",
+          "Step 2: Plan equipment access considering Charlotte’s narrow downtown streets",
+          "Step 3: Execute removal with protective measures for nearby structures",
+          "Step 4: Site cleanup meeting local brush disposal regulations"
+        ],
+        "benefits": [
+          "Prevents foundation damage from unstable trees",
+          "Eliminates storm hazard risks before hurricane season",
+          "Maintains neighborhood aesthetics",
+          "Complies with Charlotte’s tree ordinance requirements"
+        ],
+        "faq": [
+          {
+            "question": "How do you protect my home during removal?",
+            "answer": "We use mats to prevent lawn damage from equipment, directional felling techniques for tight spaces, and conduct pre-work inspections for underground utilities common in older neighborhoods."
+          },
+          {
+            "question": "What’s your process for trees near power lines?",
+            "answer": "Our certified line-clearance arborists coordinate with Duke Energy using insulated tools - critical in areas with overhead lines like Plaza Midwood."
+          }
+        ]
+      },
+      {
+        "slug": "stump-grinding",
+        "name": "Complete Stump Removal",
+        "shortDescription": "Thorough stump elimination that prevents regrowth and landscaping issues.",
+        "description": "Charlotte’s red clay holds moisture against stumps, creating ideal conditions for pests like termites and fungi. Our grinding service removes stumps 12-18 inches below grade - deeper than standard - to prevent problems in the expansive soils found throughout Mecklenburg County.\n\nWe specialize in historic property work where old stumps interfere with plumbing repairs or foundation work. For new construction sites in Ballantyne, we ensure clean removal for future landscaping. The resulting wood chips get repurposed for erosion control on local trail projects or donated to Freedom Park’s gardening programs.",
+        "process": [
+          "Step 1: Mark underground utilities (crucial in older neighborhoods with erratic pipe layouts)",
+          "Step 2: Grind stump below grade level with minimal surface disturbance",
+          "Step 3: Remove all debris and backfill with clean soil",
+          "Step 4: Provide optional soil amendment recommendations for Charlotte’s heavy clay"
+        ],
+        "benefits": [
+          "Eliminates trip hazards in family yards",
+          "Prevents termite infestations common to our humid climate",
+          "Allows for proper grading and drainage",
+          "Prepares sites for new construction or landscaping"
+        ],
+        "faq": [
+          {
+            "question": "How deep do you grind stumps?",
+            "answer": "We go 4-6 inches deeper than standard to account for Charlotte’s soil movement - critical for preventing regrowth of tenacious species like sweetgums."
+          },
+          {
+            "question": "Can you grind stumps near my driveway?",
+            "answer": "Yes, our compact equipment works in tight spaces common in Dilworth’s bungalow lots, with protective measures for nearby hardscapes."
+          }
+        ]
+      },
+      {
+        "slug": "tree-pruning",
+        "name": "Expert Tree Pruning",
+        "shortDescription": "Health-focused pruning that enhances tree structure and beauty.",
+        "description": "Proper pruning requires understanding how Charlotte’s native species respond - from stately willow oaks in Myers Park to crepe myrtles in South End. We practice structural pruning for young trees that prevents future storm damage, crucial in our active thunderstorm season.\n\nOur crown thinning improves air circulation to reduce fungal diseases prevalent in humid summers. For heritage properties, we follow strict arborist standards while preserving historic character. All cuts are made with future growth patterns in mind, preventing the ‘hat-racking’ that leaves trees vulnerable to Charlotte’s occasional ice storms.",
+        "process": [
+          "Step 1: Assess tree species and growth patterns",
+          "Step 2: Identify structural weaknesses from past storm damage",
+          "Step 3: Execute precision cuts using climbing techniques (no spikes on living trees)",
+          "Step 4: Apply wound dressings only when scientifically warranted"
+        ],
+        "benefits": [
+          "Reduces wind resistance during summer storms",
+          "Improves flowering for ornamental species",
+          "Corrects poor growth habits early",
+          "Extends tree lifespan in urban conditions"
+        ],
+        "faq": [
+          {
+            "question": "When is the best time to prune my crepe myrtles?",
+            "answer": "Late winter before new growth appears - we avoid the ‘crepe murder’ over-pruning common in Charlotte neighborhoods that stresses trees."
+          },
+          {
+            "question": "How do you protect trees during pruning?",
+            "answer": "We use rope techniques instead of spikes that damage bark, and sterilize tools between jobs to prevent disease spread in our dense urban canopy."
+          }
+        ]
+      },
+      {
+        "slug": "emergency-storm-services",
+        "name": "24/7 Storm Response",
+        "shortDescription": "Rapid response to storm-damaged trees threatening homes or power lines.",
+        "description": "When summer thunderstorms or winter ice storms hit Charlotte, our team is ready with chainsaws and cranes. We prioritize hazards threatening structures - like dangling limbs over Dilworth rooftops or downed trees blocking South End streets.\n\nOur Duke Energy-approved crews safely handle trees entangled with power lines. We document damage for insurance claims with detailed photos and arborist reports. For historic districts like Wesley Heights, we salvage viable wood for community projects. After major weather events, we coordinate with city forestry to clear public rights-of-way while respecting protected tree ordinances.",
+        "process": [
+          "Step 1: Safety assessment and hazard prioritization",
+          "Step 2: Utility line identification and coordination",
+          "Step 3: Strategic removal to minimize further property damage",
+          "Step 4: Debris management per local regulations"
+        ],
+        "benefits": [
+          "Prevents secondary damage from falling debris",
+          "Restores access to driveways and roads quickly",
+          "Provides proper documentation for insurance needs",
+          "Protects undamaged portions of valuable trees"
+        ],
+        "faq": [
+          {
+            "question": "What should I do if a tree falls on my house?",
+            "answer": "Call us immediately for temporary stabilization - we’ll tarp damaged areas and secure hazardous limbs until permanent repairs can be made, crucial during Charlotte’s active storm seasons."
+          },
+          {
+            "question": "Do you work with my insurance company?",
+            "answer": "Yes, we provide detailed arborist reports and damage documentation that meets insurer requirements - particularly helpful for extensive claims after major weather events."
+          }
+        ]
+      },
+      {
+        "slug": "tree-planting",
+        "name": "Strategic Tree Planting",
+        "shortDescription": "Right tree, right place - expert species selection and planting.",
+        "description": "Planting in Charlotte requires understanding our unique conditions - from compacted urban soils to HOA restrictions in Ballantyne. We select species that thrive in red clay while meeting size constraints of smaller lots in Plaza Midwood.\n\nOur planting process includes soil amendments for better drainage and root development. We avoid invasive species that threaten local ecosystems, focusing on natives like dogwoods and redbuds. For new construction sites, we ensure proper spacing from foundations considering clay soil movement. Every planting comes with a care guide tailored to Charlotte’s seasons - including watering advice for our drought-prone summers.",
+        "process": [
+          "Step 1: Site assessment for sun exposure and soil conditions",
+          "Step 2: Species recommendation based on Charlotte’s climate and your goals",
+          "Step 3: Proper planting with root collar placement at correct depth",
+          "Step 4: Mulching and initial care instructions"
+        ],
+        "benefits": [
+          "Increases property values with thoughtful landscaping",
+          "Reduces future maintenance needs through proper species selection",
+          "Provides cooling shade for Charlotte’s hot summers",
+          "Supports local pollinators and bird populations"
+        ],
+        "faq": [
+          {
+            "question": "What trees grow best in Charlotte’s clay soil?",
+            "answer": "We recommend native species like Southern magnolia and bald cypress that tolerate wet winters and dry summers - avoiding problematic choices like silver maples that struggle here."
+          },
+          {
+            "question": "How close to my house can I plant a tree?",
+            "answer": "We follow the ‘mature canopy rule’ - planting no closer than half the tree’s expected spread to prevent foundation issues in our expansive soils."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "James K.",
+        "rating": 5,
+        "service": "Emergency storm damage removal",
+        "text": "When the February ice storm brought a white oak down across our driveway in Myers Park, Onyx had a crew out within two hours. They carefully removed the tree without damaging our historic brick wall and even salvaged some sections for a local woodturner. Most impressive was how they coordinated with Duke Energy since our lines were involved.",
+        "date": "2025-02-15"
+      },
+      {
+        "name": "Lisa M.",
+        "rating": 5,
+        "service": "Heritage oak pruning",
+        "text": "The 80-year-old willow oak in our Dilworth front yard needed expert care after showing signs of stress. Onyx’s arborist diagnosed poor drainage in our clay soil and recommended both aeration treatments and selective pruning. Two years later, the tree looks healthier than ever despite Charlotte’s unpredictable weather swings.",
+        "date": "2024-11-03"
+      },
+      {
+        "name": "Carlos R.",
+        "rating": 5,
+        "service": "New construction tree preservation",
+        "text": "Building our custom home in SouthPark required saving five mature trees on the lot. Onyx worked with our architect to design protective barriers during construction and installed specialized root zone aeration systems. Their knowledge of local soil compaction issues made all the difference - every tree survived the 18-month project.",
+        "date": "2024-08-22"
+      },
+      {
+        "name": "Tanya B.",
+        "rating": 5,
+        "service": "Stump grinding",
+        "text": "After removing three diseased crepe myrtles in our NoDa backyard, Onyx’s stump grinding service completely erased all traces. They went extra deep because of our problematic clay soil and even amended the area with compost to prepare for new landscaping. No more worrying about termites near our foundation!",
+        "date": "2024-10-17"
+      },
+      {
+        "name": "Marcus W.",
+        "rating": 5,
+        "service": "Commercial property maintenance",
+        "text": "Managing an office complex in University City means dealing with constant tree issues across our 12-acre site. Onyx implemented a preventive pruning program that’s reduced storm damage by 40% compared to previous years. Their team navigates our busy parking lots with precision and always cleans up thoroughly.",
+        "date": "2024-09-05"
+      },
+      {
+        "name": "Rebecca S.",
+        "rating": 5,
+        "service": "Tree planting consultation",
+        "text": "Onyx helped us select and plant five trees around our new Ballantyne home that will thrive in our specific soil conditions. Two years later, all are flourishing despite Charlotte’s extreme weather fluctuations. Their advice on proper watering during drought periods has been invaluable.",
+        "date": "2024-07-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Charlotte Tree Care Experts | Onyx Tree Service",
+        "description": "Certified arborists serving Charlotte’s unique tree needs - from historic neighborhood preservation to storm damage response."
+      },
+      "about": {
+        "title": "About Our Charlotte Tree Care Company",
+        "description": "Local arborists with deep knowledge of Piedmont soils and Carolina tree species - serving Mecklenburg County since 2012."
+      },
+      "services": {
+        "title": "Charlotte Tree Services | Professional Care & Removal",
+        "description": "Complete tree solutions for Charlotte homes and businesses - pruning, removal, planting and emergency storm response."
+      },
+      "contact": {
+        "title": "Contact Charlotte’s Tree Care Specialists",
+        "description": "Get a free assessment from Onyx Tree Service - serving Charlotte, Huntersville, Matthews and surrounding areas."
+      },
+      "reviews": {
+        "title": "Charlotte Tree Service Reviews | Onyx Testimonials",
+        "description": "See what Charlotte homeowners say about our certified arborists’ work in Myers Park, Dilworth and surrounding neighborhoods."
+      },
+      "service-areas": {
+        "title": "Charlotte Area Tree Service Locations We Serve",
+        "description": "Expert tree care serving Mecklenburg County communities including South End, NoDa, Ballantyne and surrounding cities."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "850+",
+      "satisfaction": "98%",
+      "teamSize": "18"
+    },
+    "serviceAreas": [
+      {
+        "city": "Huntersville",
+        "slug": "huntersville-nc",
+        "state": "NC",
+        "content": "Onyx Tree Service proudly serves Huntersville, NC, providing expert tree care for its thriving suburban neighborhoods. With many homes built in the 1990s-2000s, mature trees are common, requiring regular trimming, removal, and storm damage cleanup. Our team understands the challenges of hot, humid summers and how they impact tree health, offering tailored solutions to keep your property safe and beautiful. Whether you need routine maintenance or emergency services after a storm, we’re here to help.",
+        "localContext": "Huntersville features 1990s-2000s suburban developments with a mix of mature trees and newer landscaping.",
+        "nearbyAreas": [
+          "Cornelius",
+          "Davidson",
+          "Charlotte"
+        ]
+      },
+      {
+        "city": "Concord",
+        "slug": "concord-nc",
+        "state": "NC",
+        "content": "Concord, NC, is home to many 1980s-90s family homes with well-established trees that need professional care. Onyx Tree Service specializes in tree trimming, removal, and stump grinding to maintain the safety and aesthetics of your yard. The hot, humid summers here can stress trees, making proper maintenance essential. We also assist with storm damage cleanup, ensuring your property recovers quickly after severe weather.",
+        "localContext": "Concord’s neighborhoods are characterized by 1980s-90s family homes with older, large trees.",
+        "nearbyAreas": [
+          "Harrisburg",
+          "Kannapolis",
+          "Charlotte"
+        ]
+      },
+      {
+        "city": "Matthews",
+        "slug": "matthews-nc",
+        "state": "NC",
+        "content": "Matthews, NC, is known for its charming 1970s-80s established suburbs, where trees have grown tall and dense over decades. Onyx Tree Service provides expert tree care, including pruning, removal, and disease management, to keep these mature trees healthy. The hot, humid climate can lead to pest infestations and fungal growth, so our team offers preventative treatments to protect your trees year-round.",
+        "localContext": "Matthews features 1970s-80s established suburbs with lush, mature tree canopies.",
+        "nearbyAreas": [
+          "Mint Hill",
+          "Stallings",
+          "Charlotte"
+        ]
+      },
+      {
+        "city": "Fort Mill",
+        "slug": "fort-mill-nc",
+        "state": "NC",
+        "content": "Fort Mill, NC, is a growing community with newer 2000s-2020s planned developments, where landscaping and young trees are a priority. Onyx Tree Service helps homeowners maintain healthy, attractive trees with services like planting, trimming, and removal. The hot, humid summers here require careful attention to tree hydration and pest control, which our team expertly manages.",
+        "localContext": "Fort Mill’s newer planned communities feature young trees and carefully designed landscapes.",
+        "nearbyAreas": [
+          "Tega Cay",
+          "Rock Hill",
+          "Charlotte"
+        ]
+      },
+      {
+        "city": "Gastonia",
+        "slug": "gastonia-nc",
+        "state": "NC",
+        "content": "Gastonia, NC, is a city of 1960s-70s working-class homes with sturdy, older trees that often need professional care. Onyx Tree Service offers tree removal, trimming, and stump grinding to keep these properties safe and tidy. The hot, humid climate can accelerate tree decay, so we provide thorough inspections and maintenance to prevent hazards.",
+        "localContext": "Gastonia’s neighborhoods are filled with 1960s-70s working-class homes and aging trees.",
+        "nearbyAreas": [
+          "Belmont",
+          "Mount Holly",
+          "Charlotte"
+        ]
+      },
+      {
+        "city": "Cornelius",
+        "slug": "cornelius-nc",
+        "state": "NC",
+        "content": "Cornelius, NC, is a lakeside community with a mix of older and newer homes, many surrounded by mature trees. Onyx Tree Service provides specialized care for these trees, including trimming, removal, and storm damage cleanup. The hot, humid summers here can weaken trees, making regular maintenance crucial for property safety.",
+        "localContext": "Cornelius offers a blend of older and newer homes with scenic lakefront tree cover.",
+        "nearbyAreas": [
+          "Huntersville",
+          "Davidson",
+          "Charlotte"
+        ]
+      },
+      {
+        "city": "Rock Hill",
+        "slug": "rock-hill-nc",
+        "state": "NC",
+        "content": "Rock Hill, NC, is a vibrant city with a mix of historic and modern homes, many featuring large shade trees. Onyx Tree Service helps homeowners manage these trees with expert trimming, removal, and disease control. The hot, humid climate can stress trees, so we offer tailored care to keep them thriving.",
+        "localContext": "Rock Hill’s diverse neighborhoods include historic homes and newer developments with mature trees.",
+        "nearbyAreas": [
+          "Fort Mill",
+          "Tega Cay",
+          "Charlotte"
+        ]
+      },
+      {
+        "city": "Davidson",
+        "slug": "davidson-nc",
+        "state": "NC",
+        "content": "Davidson, NC, is a picturesque town with tree-lined streets and historic homes, requiring specialized tree care. Onyx Tree Service provides pruning, removal, and storm damage cleanup to preserve the town’s natural beauty. The hot, humid summers here demand vigilant tree maintenance to prevent disease and pests.",
+        "localContext": "Davidson’s charming downtown and historic districts are shaded by mature trees.",
+        "nearbyAreas": [
+          "Cornelius",
+          "Huntersville",
+          "Charlotte"
+        ]
+      },
+      {
+        "city": "Mint Hill",
+        "slug": "mint-hill-nc",
+        "state": "NC",
+        "content": "Mint Hill, NC, is a suburban community with a mix of older and newer homes, many surrounded by tall trees. Onyx Tree Service offers trimming, removal, and stump grinding to keep these properties safe and attractive. The hot, humid climate can lead to tree stress, so we provide preventative care to maintain tree health.",
+        "localContext": "Mint Hill’s neighborhoods feature a blend of older and newer homes with dense tree cover.",
+        "nearbyAreas": [
+          "Matthews",
+          "Stallings",
+          "Charlotte"
+        ]
+      },
+      {
+        "city": "Tega Cay",
+        "slug": "tega-cay-nc",
+        "state": "NC",
+        "content": "Tega Cay, NC, is a waterfront community with newer homes and carefully landscaped yards. Onyx Tree Service helps residents maintain their trees with services like planting, trimming, and removal. The hot, humid summers here require careful attention to tree hydration and pest management, which our team expertly handles.",
+        "localContext": "Tega Cay’s planned communities feature young trees and scenic lakefront properties.",
+        "nearbyAreas": [
+          "Fort Mill",
+          "Rock Hill",
+          "Charlotte"
+        ]
+      },
+      {
+        "city": "Kannapolis",
+        "slug": "kannapolis-nc",
+        "state": "NC",
+        "content": "Kannapolis, NC, is a growing city with a mix of historic and modern homes, many with large shade trees. Onyx Tree Service provides trimming, removal, and disease management to keep these trees healthy. The hot, humid climate can accelerate tree decay, so we offer thorough inspections and maintenance.",
+        "localContext": "Kannapolis’s revitalized downtown and residential areas feature mature trees.",
+        "nearbyAreas": [
+          "Concord",
+          "Harrisburg",
+          "Charlotte"
+        ]
+      },
+      {
+        "city": "Harrisburg",
+        "slug": "harrisburg-nc",
+        "state": "NC",
+        "content": "Harrisburg, NC, is a family-friendly suburb with newer developments and established trees. Onyx Tree Service offers expert tree care, including pruning, removal, and storm damage cleanup. The hot, humid summers here can stress trees, making regular maintenance essential for property safety.",
+        "localContext": "Harrisburg’s neighborhoods include newer developments with a mix of young and mature trees.",
+        "nearbyAreas": [
+          "Concord",
+          "Kannapolis",
+          "Charlotte"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "tree-removal": "/images/service-tree-removal.webp",
+      "stump-grinding": "/images/service-stump-grinding.webp",
+      "tree-pruning": "/images/service-tree-pruning.webp",
+      "emergency-storm-services": "/images/service-emergency-storm-services.webp",
+      "tree-planting": "/images/service-tree-planting.webp"
+    },
+    "servicesResponsive": {
+      "tree-removal": {
+        "src": "/images/service-tree-removal.webp",
+        "srcset": "/images/service-tree-removal-400w.webp 400w, /images/service-tree-removal-800w.webp 800w, /images/service-tree-removal-1200w.webp 1200w, /images/service-tree-removal.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "stump-grinding": {
+        "src": "/images/service-stump-grinding.webp",
+        "srcset": "/images/service-stump-grinding-400w.webp 400w, /images/service-stump-grinding-800w.webp 800w, /images/service-stump-grinding-1200w.webp 1200w, /images/service-stump-grinding.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "tree-pruning": {
+        "src": "/images/service-tree-pruning.webp",
+        "srcset": "/images/service-tree-pruning-400w.webp 400w, /images/service-tree-pruning-800w.webp 800w, /images/service-tree-pruning-1200w.webp 1200w, /images/service-tree-pruning.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "emergency-storm-services": {
+        "src": "/images/service-emergency-storm-services.webp",
+        "srcset": "/images/service-emergency-storm-services-400w.webp 400w, /images/service-emergency-storm-services-800w.webp 800w, /images/service-emergency-storm-services-1200w.webp 1200w, /images/service-emergency-storm-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "tree-planting": {
+        "src": "/images/service-tree-planting.webp",
+        "srcset": "/images/service-tree-planting-400w.webp 400w, /images/service-tree-planting-800w.webp 800w, /images/service-tree-planting-1200w.webp 1200w, /images/service-tree-planting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
